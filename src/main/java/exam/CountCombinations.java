@@ -6,7 +6,6 @@ public class CountCombinations {
     int arr[] = new int[k];
     for(int i=0;i<k;i++)
         arr[i] = i+1;
-    System.out.println(Arrays.toString(arr));
     int count[] = new int[k + 1];
     count[0] = 1;
     for (int i = 1; i <= k; i++)
